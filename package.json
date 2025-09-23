@@ -1,0 +1,27 @@
+{
+  "name": "admin-dashboard",
+  "version": "1.0.0",
+  "description": "- dashboard developed using only HTML/CSS/JS wih webpack bundler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bre323/Admin-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Bre323/Admin-dashboard/issues"
+  },
+  "homepage": "https://github.com/Bre323/Admin-dashboard#readme",
+  "devDependencies": {
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2",
+    "webpack-merge": "^6.0.1"
+  }
+}
