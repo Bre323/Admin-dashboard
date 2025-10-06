@@ -6,7 +6,7 @@
 
 body {
   display: grid;
-  grid-template: 200px 1fr / 20% 1fr;
+  grid-template: 200px 1fr / 250px 1fr;
   grid-template-areas: 
   'aside header header'
   'aside main main';
@@ -14,21 +14,49 @@ body {
 
 aside {
   grid-area: aside;
-  height: 100vh;
   padding: 20px;
-  min-width: 200px;
-  background-color: blue;
-  color: white;
+  min-width: 250px;
+  background-color: rgb(188, 188, 255);
   font-weight: bold;
 }
 
+#dashboard-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.title,
+.menu-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 15px;
+  transition: 0.3s;
+}
+
+.menu-item:hover {
+  transform: scale(0.95);
+  background-color: rgb(141, 141, 255);
+  border-radius: 25px;
+}
+
+.menu-item:active {
+  background-color: rgb(100, 100, 220);
+  opacity: 0.8;
+}
+
 ul {
-  margin-top: 25px;
+  margin-top: 60px;
 }
 
 li {
   list-style-type: none;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+li > img {
+  height: 25px;
+  width: 25px;
 }
 
 header {
