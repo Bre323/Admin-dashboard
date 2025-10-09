@@ -172,7 +172,8 @@ main {
 
 .projects > p,
 .project-div > p:first-child,
-.info > p {
+.info > p,
+.announce > p:first-child {
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -207,4 +208,31 @@ main {
 
 .proj-options > img:active {
   transform: scale(0.85);
+}
+
+.announces-div,
+.trend-div {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.announce {
+  padding: 15px 5px 20px;
+}
+
+.announce:not(:nth-child(3)) {
+  border-bottom: 1px solid gray;
+}
+
+.trend {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.trend-profile > p:first-child {
+  font-weight: 700;
+  margin-bottom: 5px;
 }
